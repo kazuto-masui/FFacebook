@@ -12,10 +12,10 @@ CarrierWave.configure do |config|
 
   case Rails.env
     when 'production'
-      config.fog_directory = 'achieve.masui-production'
-      config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/achieve.masui-production'
+      config.fog_directory = 'ffacebook-production'
+      config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/ffacebook-production'
     when 'development'
-      config.fog_directory = 'achieve.masui-development'
-      config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/achieve.masui-development'
+      config.fog_directory = 'ffacebook-development'
+      config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/ffacebook-development'
   end
 end
