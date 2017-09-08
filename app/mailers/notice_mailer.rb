@@ -5,16 +5,16 @@ class NoticeMailer < ApplicationMailer
   #
   #   en.notice_mailer.sendmail_contacts.subject
   #
-  
+
   def sendmail_blog(blog)
     @blog = blog
     mail to: "kazutooo.110@gmail.com",
-    subject: '【Achieve】ブログが投稿されました'
+    subject: '【FFacebook】ブログが投稿されました'
   end
-  
+
   def sendmail_contacts(contact)
     @contact = contact
     mail to: @contact.email,
-    subject: '【Achieve】お問い合わせが完了しました'
+    subject: '【FFacebook】お問い合わせが完了しました'
   end
 end
