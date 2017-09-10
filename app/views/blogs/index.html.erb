@@ -1,8 +1,8 @@
 <div class="container">
   <div class="wrapper col-md-6 col-md-offset-3 col-sm-10">
     <p><%= notice %></p>
-    <h1>ブログ一覧</h1>
-      <%= link_to "ブログを作成する", new_blog_path, class: 'btn btn-default' %>
+    <h1>topic一覧</h1>
+      <%= link_to "topicを作成する", new_blog_path, class: 'btn btn-default' %>
     <% @blogs.each do |blog| %>
     <div class="row">
       <%= link_to blog_path(blog) do %>

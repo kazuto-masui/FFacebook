@@ -9,7 +9,7 @@ class NoticeMailer < ApplicationMailer
   def sendmail_blog(blog)
     @blog = blog
     mail to: "kazutooo.110@gmail.com",
-    subject: '【FFacebook】ブログが投稿されました'
+    subject: '【FFacebook】topicが投稿されました'
   end
 
   def sendmail_contacts(contact)
