@@ -209,11 +209,7 @@ audio:not([controls]) {
  * Remove the border on images inside links in IE 10-.
  */
 
-img {
-  /*max-width: 100%;*/
-  height:100px;
-  width: 100px;
-}
+
 
 /**
  * Hide the overflow in IE.
